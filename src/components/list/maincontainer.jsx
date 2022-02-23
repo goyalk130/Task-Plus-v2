@@ -12,7 +12,7 @@ export default function Main(props) {
       <fieldset className="filed">
       <legend>Add Item</legend>
         <form onSubmit={add}>
-          <input placeholder="New Task" spellcheck="false" type="text" />
+          <input placeholder="Write here" spellcheck="false" type="text" />
           <button><AddCircleRoundedIcon htmlColor="#ffb325" sx={{ fontSize: 60 }}/></button>
         </form>
         </fieldset>
